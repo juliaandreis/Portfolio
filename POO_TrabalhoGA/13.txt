@@ -1,0 +1,9 @@
+A biblioteca é um vácuo estelar, com livros flutuando como asteroides. No centro, o Tomo dos Opoentes paira sobre um pedestal, pulsando com energia cósmica. De repente, um vulto se materializa — um Devorador de Mentes, uma criatura aboninável, somente para me atormentar.
+
+1: Combater o Devorador.  
+2: Roubar o Tomo rapidamente.  
+3: Ler uma página aleatória.
+
+@1;14
+@2;15
+@3;16

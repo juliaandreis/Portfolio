@@ -1,0 +1,17 @@
+No interior da cascata, agora aberta como um véu,
+um grande portal de pedra rúnica se revela.
+Nele, três símbolos brilham:
+
+1) Um olho,
+2) Uma espiral,  
+3) Uma mão segurando um livro.
+
+1: Tocar a mão e livro.
+2: Tocar a espiral.
+3: Tocar o olho.
+4: Forçar a entrada com magia.
+
+@1;10
+@2;10
+@3;11
+@4;12

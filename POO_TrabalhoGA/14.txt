@@ -1,0 +1,21 @@
+O Devorador de Mentes emite um pulsar psíquico que distorce o ar ao seu redor.
+
+Eu avanço com minha arma, sentindo a mente latejar de dor.
+
+Digite 1 para continuar...
+%M
+Devorador de Mentes
+1
+9
+9
+30
+500
+1
+15
+22
+Mente do Devorador
+C
+0
+0
+0
+%C

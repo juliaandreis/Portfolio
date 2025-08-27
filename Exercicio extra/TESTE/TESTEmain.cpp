@@ -1,5 +1,3 @@
-#include <iostream>
-#include <string>
 #include "pais.h"
 
 int main () {
@@ -19,4 +17,5 @@ int main () {
     brasil.getVizinhosComuns(&argentina);
 
     return 0;
+
 }

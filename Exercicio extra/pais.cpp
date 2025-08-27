@@ -1,6 +1,4 @@
 #include "pais.h"
-#include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -68,4 +66,5 @@ Pais** Pais::getVizinhosComuns(Pais *p) {
     }
   }
   return resultado;
+
 }

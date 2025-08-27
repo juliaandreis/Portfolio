@@ -1,8 +1,6 @@
 #include "Lista.h"
 #include "Cartas.h"
 #include "Baralho.h"
-#include <ctime>
-#include <cstdlib>
 
 int main(){
     srand(time(0));
@@ -33,4 +31,5 @@ int main(){
     cout << lista.getTamanho() << endl;
 
     return 0;
+
 }

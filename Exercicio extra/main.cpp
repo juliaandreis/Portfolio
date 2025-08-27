@@ -1,6 +1,4 @@
 #include "pais.h"
-#include <iostream>
-#include <string>
 
 int main() {
   Pais brasil("BRA", "Brasil", 212583750, 8510417.771);
@@ -25,3 +23,4 @@ int main() {
 
   return 0;
 }
+

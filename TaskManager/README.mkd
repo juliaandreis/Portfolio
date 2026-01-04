@@ -141,7 +141,3 @@ Developed by **Julia Renata Andreis**\
 Computer Science student
 
 ---
-
-## License
-
-This project is for educational purposes only.

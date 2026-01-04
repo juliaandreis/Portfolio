@@ -131,7 +131,6 @@ g++ src/*.cpp -I include -o task_manager
 -   Sort tasks by priority or due date
 -   User authentication system
 -   Graphical interface
--   Database integration
 
 ---
 

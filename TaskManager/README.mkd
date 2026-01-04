@@ -139,5 +139,3 @@ g++ src/*.cpp -I include -o task_manager
 
 Developed by **Julia Renata Andreis**\
 Computer Science student
-
----

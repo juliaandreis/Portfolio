@@ -1,6 +1,6 @@
 # TASK MANAGER (C++)
 
-The project consists in a task manager developed in C++ to practice Object Oriented Programming, data structure and file persistence.
+The project consists in a tasks manager developed in C++ to practice Object Oriented Programming, data structure and file persistence.
 
 ## Features
 

@@ -24,7 +24,6 @@ Combate::Combate(Personagem *personagem, Monstro *monstro) {
   turno = 0;
 }
 
-// Getters e Setters
 void Combate::setPersonagem(Personagem *personagem) {
   this->personagem = personagem;
 }

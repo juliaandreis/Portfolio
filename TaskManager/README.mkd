@@ -1,0 +1,147 @@
+# TASK MANAGER (C++)
+
+The project consists in a task manager developed in C++ to practice Object Oriented Programming, data structure and file persistence.
+
+## Features
+
+- Create tasks
+- List all tasks
+- Update task status
+- Remove tasks
+- Set task priority (low, medium, high)
+- Data persistence using files
+
+---
+
+## Concepts Practiced
+
+- Object-Oriented Programming (OOP)
+- Usage of `enum class`
+- Encapsulation
+- Vectors of objects (`std::vector`)
+- File input/output
+- Project organization with multiple files (.h / .cpp)
+
+---
+
+## Project Structure
+
+```text
+task-manager/
+│
+├── src/
+│   ├── main.cpp
+│   ├── Task.cpp
+│   ├── TaskManager.cpp
+│
+├── include/
+│   ├── Task.h
+│   ├── TaskManager.h
+│
+├── data/
+│   └── tasks.txt
+│
+└── README.md
+```
+
+---
+
+## Data Structures
+
+### `Task` Class
+
+Represents a single task.
+
+**Main attributes:** - `int id` - `std::string title` -
+`std::string description` - `Status status` - `Priority priority` -
+`std::string dueDate`
+
+**Enums used:**
+
+``` cpp
+enum class Status { PENDING, IN_PROGRESS, DONE };
+enum class Priority { LOW, MEDIUM, HIGH };
+```
+
+---
+
+### `TaskManager` Class
+
+Responsible for managing all tasks.
+
+**Main responsibilities:** - Add tasks - Remove tasks by ID - Update
+task - List tasks
+
+**Internal structure:**
+
+``` cpp
+std::vector<Task> tasks;
+```
+
+---
+
+## Data Persistence
+
+Tasks are stored in a text file using the following format:
+
+``` text
+id|title|description|status|priority|dueDate
+```
+
+The file is automatically loaded when the program starts.
+
+---
+
+## How to Run
+
+### Requirements
+
+-   C++ compiler (g++, clang, etc.)
+-   C++17 or higher
+
+### Compilation
+
+``` bash
+g++ src/*.cpp -I include -o task_manager
+```
+
+### Execution
+
+``` bash
+./task_manager
+```
+
+---
+
+## Example Usage
+
+``` text
+1 - Add task
+2 - List tasks
+3 - Update task
+4 - Remove task
+0 - Exit
+```
+
+---
+
+## Future Improvements
+
+-   Filter tasks by status
+-   Sort tasks by priority or due date
+-   User authentication system
+-   Graphical interface
+-   Database integration
+
+---
+
+## Author
+
+Developed by **Julia Renata Andreis**\
+Computer Science student
+
+---
+
+## License
+
+This project is for educational purposes only.```

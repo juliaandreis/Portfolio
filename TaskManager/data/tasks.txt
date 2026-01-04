@@ -1,0 +1,5 @@
+1|Fazer compras do mes|Comprar arroz, feijao, cafe e produtos de limpeza|* *|Pending|05/11/2026
+2|Consulta no dentista|Revisao anual e limpeza as 14:00|* * *|Pending|08/01/2026
+3|Lavar o carro|Lembrar da limpeza interna|*|Done|02/01/2026
+4|Pagar conta de luz|Vencimento no dia 10. nao esquecer!|* * *|Pending|10/01/2026
+5|Organizar guarda-roupa|Separar roupas para doacao e organizar gavetas|*|Pending|12/01/2026

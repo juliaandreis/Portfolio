@@ -57,7 +57,7 @@ int main(){
                 break;
             case 3:
                 manager.listAllTasks();
-                cout << "ID from the task to be change: ";
+                cout << "Enter the ID of the task to be changed: ";
                 getline(cin, buffer);
                 id = stoi(buffer);
 
@@ -91,7 +91,7 @@ int main(){
                 break;
             case 4:
                 manager.listAllTasks();
-                cout << "ID from the task to be removed: ";
+                cout << "Enter the ID of the task to be removed: ";
                 getline(cin, buffer);
                 id = stoi(buffer);
                 manager.removeTask(id);
